@@ -27,39 +27,6 @@ Correlation Between Fisheries and Microplastics
 ARIMA Forecasts Through 2050
  Time-series projections showing accelerating plastic accumulation relative to fisheries growth
 
-🗂️ Repository Structure
-fisheries-ocean-plastics-analysis/
-│
-├── data/                      # Raw and processed datasets
-│   ├── raw/                   # Original data from FAO, NOAA
-│   └── processed/             # Cleaned, analysis-ready data
-│
-├── notebooks/                 # Jupyter notebooks (analysis workflow)
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_correlation_analysis.ipynb
-│   ├── 04_arima_modeling.ipynb
-│   └── 05_visualization.ipynb
-│
-├── src/                       # Python source code (reusable modules)
-│   ├── data_processing.py
-│   ├── statistical_analysis.py
-│   ├── time_series_models.py
-│   └── visualization.py
-│
-├── scripts/                   # Standalone execution scripts
-│   ├── run_full_analysis.py
-│   └── generate_figures.py
-│
-├── figures/                   # All visualizations from the paper
-│
-├── results/                   # Model outputs and statistics
-│
-├── paper/                     # Research paper (PDF and Markdown)
-│
-└── docs/                      # Additional documentation
-
-
 🚀 Getting Started
 Prerequisites
 Python 3.10 or higher
@@ -163,12 +130,6 @@ Circular Economy: Implement take-back and recycling schemes at ports
 Enhanced Monitoring: Expand standardized microplastic sampling globally
 Regional Analysis: Identify hotspots for targeted interventions
 International Cooperation: Strengthen transboundary agreements on marine debris
-
-📄 Research Paper
-The full research paper is available in the paper/ directory:
-PDF: Research_Paper_Final.pdf
-Markdown: Research_Paper_Final.md
-Abstract: This study investigates the connection between the expanding global fishing industry and the accumulation of ocean plastics using 70 years of historical data. Results reveal an 840% increase in fisheries production and 300-400% increase in microplastic concentrations between 1950 and 2020, with strong positive correlation (r = 0.82, p < 0.001). ARIMA forecasts suggest plastic pollution may outpace fisheries growth through 2050, highlighting the need for sustainable management interventions.
 
 🔄 Reproducibility
 This project prioritizes reproducibility:
