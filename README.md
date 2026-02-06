@@ -145,49 +145,6 @@ Download data (python scripts/download_data.py)
 Run notebooks sequentially (01 → 05)
 Or run complete pipeline: python scripts/run_full_analysis.py
 
-📊 Figures
-All figures from the research paper are available in high resolution:
-Figure
-Description
-File
-1
-Number of Samples Per Year
-figure_01_samples_per_year.png
-2
-Total Fisheries Production by Year
-figure_02_fisheries_production.png
-3
-Data Availability by Year
-figure_03_data_availability.png
-4a
-Global Fisheries Production (1950-2022)
-figure_04a_fisheries_temporal.png
-4b
-Microplastic Concentration (1972-2022)
-figure_04b_plastics_temporal.png
-5a
-Fisheries vs Microplastic Concentration
-figure_05a_scatter_plot.png
-5b
-Correlation Matrix
-figure_05b_correlation_matrix.png
-6a
-Distribution of Fisheries Production
-figure_06a_fisheries_distribution.png
-6b
-Distribution of Microplastic Concentration
-figure_06b_plastics_distribution.png
-7
-ACF and PACF Plots
-figure_07_acf_pacf_plots.png
-8a
-ARIMA Forecast: Fisheries Production
-figure_08a_fisheries_forecast.png
-8b
-ARIMA Forecast: Microplastic Concentration
-figure_08b_plastics_forecast.png
-
-
 🤝 Contributing
 Contributions are welcome! Ways to contribute:
 Report bugs: Open an issue describing the problem
